@@ -26,7 +26,7 @@ if num_of_authors == 2:
     authors = authors + " and " + esc_input("What is the name of the second author? ")
 if num_of_authors > 2:
     authors = authors + " et al."
-
+# Getting Title
 length_of_medium = input("Is the work large(\"l\") or small(\"s\")? ")
 length_of_medium = length_of_medium.strip().lower()
 title = esc_input("What is the title of the work? ")
@@ -37,7 +37,7 @@ elif length_of_medium == "s":
 else:
     print("Not a valid input.")
     exit()
-
+# Getting Locator
 type_of_medium = input("Is your medium on the Web(\"w\"), a book(\"b\"), or other(\"o\")? ")
 if type_of_medium == "w":
     locator = esc_input("What is the full URL of the work? ")
@@ -53,8 +53,22 @@ else:
 
 if locator != "":
     locator = ", "+locator
-citation = "<p>"+authors+", "+title+locator+"</p>"
+citation = "<p>"+authors+", "+title+locator
 
+# Simple Extended Citations
+extended = input("Do you want to use Simple Extended Citations yes (\"y\") or no (\"n\")? ")
+if extended.lower() == "y":
+    date = input("What date was the work published on? ")
+    container = input("What is the name of the container (e.g. journal, book, larger website) is the work in? ")
+    container = "<i>%s</i>" % container
+    if container == "<i></i>" or container == title:
+        end = "" # No comma if no container
+    else:
+        end = ", "+container
+    citation = citation+", "+date+end
+
+# Writing the citation
+citation = citation + "</p>"
 filename = input("What file do you want the citation saved to? ")
 if not filename.endswith(".html"):
     filename = filename + ".html"
