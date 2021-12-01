@@ -24,7 +24,7 @@ The official implementation of Simple is in citation_maker.py. The HTML output f
 
 # Examples
 ## Simple Citations
-Bryson, Bill, *A Really Short History of Nearly Everything*, ISBN 978-0-385-73810-1, 2008
+Bryson, Bill, *A Really Short History of Nearly Everything*, ISBN 978-0-385-73810-1
 
 Jones, Tim, "Pirate Song", <http://www.alliancemusic.com/images/products/PirateSong_web.pdf>
 
