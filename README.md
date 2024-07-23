@@ -1,6 +1,6 @@
 # simple_citations
 
-My repository for the Simple Citation System. It is based on the system used in "How to Read a Paper", which is cited below in Simple.
+My repository for the Simple Citation System. It is based on the system used in "How to Read a Paper", which is cited below in Simple. A citation generator in Python is in citation_maker.py.
 
 # Works Cited
 
