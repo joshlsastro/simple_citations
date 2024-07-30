@@ -58,8 +58,8 @@ citation = "<p>"+authors+", "+title+locator
 # Simple Extended Citations
 extended = input("Do you want to use Simple Extended Citations yes (\"y\") or no (\"n\")? ")
 if extended.lower() == "y":
-    date = input("What date was the work published on? ")
-    container = input("What is the name of the container (e.g. journal, book, larger website) the work is in? ")
+    date = esc_input("What date was the work published on? ")
+    container = esc_input("What is the name of the container (e.g. journal, book, larger website) the work is in? ")
     container = "<i>%s</i>" % container
     if container == "<i></i>" or container == title:
         end = "" # No comma if no container
