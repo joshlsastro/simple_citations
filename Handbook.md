@@ -34,7 +34,7 @@ Purdue Writing Lab, "MLA Formatting and Style Guide", <https://owl.purdue.edu/ow
 
 Srinivasan Keshav, "How to Read a Paper", <http://www.sigcomm.org/sites/default/files/ccr/papers/2007/July/1273445-1273458.pdf>
 
-Wirth, Eric, "The Capitalization of Web | The MLA Style Center", <https://style.mla.org/the-capitalization-of-web/>
+Wirth, Eric, "The Capitalization of Web \| The MLA Style Center", <https://style.mla.org/the-capitalization-of-web/>
 
 ## Simple Extended Citations
 Bryson, Bill, *A Really Short History of Nearly Everything*, ISBN 978-0-385-73810-1, 2008
@@ -46,3 +46,9 @@ Pausch, Randy, "Time Management", <https://www.youtube.com/watch?v=blaK_tB_KQA>,
 Purdue Writing Lab, "MLA Formatting and Style Guide", <https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html>, 2020 November 19, *Purdue Writing Lab*
 
 Srinivasan Keshav, "How to Read a Paper", <http://www.sigcomm.org/sites/default/files/ccr/papers/2007/July/1273445-1273458.pdf>, July 2007, *ACM SIGCOMM Computer Communication Review*
+
+# Additional Links 
+
+[Information about this project](https://github.com/joshlsastro/simple_citations)
+
+[Donate](https://github.com/sponsors/joshlsastro)
