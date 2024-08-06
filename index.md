@@ -1,3 +1,3 @@
-<meta http-equiv="refresh" content="0;url=Handbook.md">
+<meta http-equiv="refresh" content="0;url=Handbook.html">
 
-# Redirect to [Handbook](Handook.md)
+# Redirect to [Handbook](Handook.html)
