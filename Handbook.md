@@ -16,7 +16,7 @@ If the source is available on the World Wide Web, write down the full URL of the
 
 # Simple Extended Citations
 
-*All of the following elements are optional and not required for an official Simple citation. They are only required for Simple Extended Citations.* If you would like to include additional information in your citation, include a comma after the locator, then add the date (all formats allowed) that the source was published. Next, include the name of the container (e.g. journal, book, larger website). The name of the container should be italicized; if this is not possible, then underline the name of the container.
+*All of the following elements are optional and not required for an official Simple citation. They are only required for Simple Extended Citations.* If you would like to include additional information in your citation, include a comma after the locator, then add the date (all formats allowed) that the source was published. Next, include the name of the container if there is one (e.g. journal, book, larger website). The name of the container should be italicized; if this is not possible, then underline the name of the container. Make sure there is a comma between the date and the name of the container.
 
 # I'm Still Confused
 
@@ -43,11 +43,11 @@ Jones, Tim, "Pirate Song", <http://www.alliancemusic.com/images/products/PirateS
 
 Pausch, Randy, "Time Management", <https://www.youtube.com/watch?v=blaK_tB_KQA>, 2011 May 2, *YouTube*
 
-Purdue Writing Lab, "MLA Formatting and Style Guide", <https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html>, 2020 November 19, *Purdue Writing Lab*
+Purdue Writing Lab, "MLA Formatting and Style Guide", <https://web.archive.org/web/20201119184203/https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/mla_formatting_and_style_guide.html>, 2020 November 19, *Purdue Writing Lab*
 
 Srinivasan Keshav, "How to Read a Paper", <http://www.sigcomm.org/sites/default/files/ccr/papers/2007/July/1273445-1273458.pdf>, July 2007, *ACM SIGCOMM Computer Communication Review*
 
-# Additional Links 
+# Additional Links
 
 [Information about this project](https://github.com/joshlsastro/simple_citations)
 
