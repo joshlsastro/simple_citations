@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+  <info>
+    <title>Simple Extended Citation System</title>
+    <title-short>Simple Extended</title-short>
+    <author>
+      <name>Josh Ellis</name>
+      <uri>https://github.com/joshlsastro</uri>
+    </author>
+    <!--id courtesy NamLabs, "Online UUID Validator", https://tools.namlabs.com/uuid-validation/-->
+    <!--If someone finds out the uuid isn't unique, let me know at https://github.com/joshlsastro/simple_citations-->
+    <id>13da68dd-6c0c-591f-a183-3fadbbb30c37</id>
+    <link href="https://joshlsastro.github.io/simple_citations" rel="documentation"></link>
+    <updated>2024-08-14T00:00:00</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name and="text" et-al-min="3" et-al-use-first="1" />
+    </names>
+  </macro>
+  <macro name="title">
+    <!--
+    CSL gives no way to tell which documents are short or long.
+    Both APA and MLA prefer italics, so I'm using that.
+    -->
+    <text variable="title" font-style="italic" />
+  </macro>
+  <macro name="locator">
+    <choose>
+      <if variable="ISBN">
+        <text value="ISBN " />
+        <text variable="ISBN" />
+      </if>
+      <else>
+        <text variable="URL" />
+      </else>
+    </choose>
+  </macro>
+  <macro name="container">
+    <text variable="container-title" font-style="italic" />
+  </macro>
+  <citation>
+    <layout>
+      <group delimiter=", ">
+        <text macro="author"/>
+        <text macro="title"/>
+        <text macro="locator"/>
+        <date variable="issued" form="text"/>
+        <text macro="container"/>
+      </group>
+    </layout>
+  </citation>
+</style>

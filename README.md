@@ -4,6 +4,15 @@
 
 My repository for the Simple Citation System. It is based on the system used in "How to Read a Paper", which is cited below in Simple. A citation generator in Python is in citation_maker.py.
 
+## How to Use with Zotero
+
+Opening simple.csl or simple-extended.csl will allow you to use Simple or Simple Extended respectively in Zotero.
+
+Caveats:
+- You'll need to check Cite &gt; Citation Options &gt; Include URLs of paper articles in references in Zotero Settings.
+- All titles will be in italics; titles of short works will need to be altered to quotes manually. The file specification gives no way to fix this.
+- Since it's not mentioned in the Handbook, you may reference Simple with in-text citations or notes.
+
 ## Bug Reports or Feature Requests
 
 How to submit a bug report or feature request:
