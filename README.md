@@ -13,6 +13,12 @@ Caveats:
 - All titles will be in italics; titles of short works will need to be altered to quotes manually. The file specification gives no way to fix this.
 - Since it's not mentioned in the Handbook, you may reference Simple with in-text citations or notes.
 
+## Why Should I Use This?
+
+Simple citations are easier and quicker to write than in other citation systems. Reading them is even easier; you can probably understand all of these [examples](https://joshlsastro.github.io/simple_citations/Handbook.html#examples) on first glance without referencing the rest of the Handbook. Simple is also flexible; you can cite pretty much anything from books to news articles to music all in the same format. You can also write Simple citations in plain text or even handwriting; this allows for easy incorporation into websites, notes, or anything else.
+
+In short, using Simple can save you hours of work and can free you from focusing on citations in order to focus on your writing.
+
 ## Bug Reports or Feature Requests
 
 How to submit a bug report or feature request:
