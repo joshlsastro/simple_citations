@@ -4,7 +4,7 @@ The Simple Citation System requires 3 pieces of information: author, title of wo
 
 ## Author
 
-If there is one author, write the author's name down in an easily recognizable format. If there are two authors, write down "[first author] and [second author]". If there are more than three authors, write down "[first author] et al.". The author field should be followed by a comma.
+If there is one author, write the author's name down in an easily recognizable format. If there are two authors, write down "[first author] and [second author]". If there are more than two authors, write down "[first author] et al.". The author field should be followed by a comma.
 
 ## Name of Source
 
